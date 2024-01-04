@@ -19,10 +19,10 @@
 -- Table structure for table `admin`
 --
 
-DROP TABLE IF EXISTS `admin`;
+DROP TABLE IF EXISTS `sys_admin`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `admin` (
+CREATE TABLE `sys_admin` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(45) NOT NULL,
   `password` varchar(45) NOT NULL,
@@ -35,9 +35,9 @@ CREATE TABLE `admin` (
 -- Dumping data for table `admin`
 --
 
-LOCK TABLES `admin` WRITE;
+LOCK TABLES `sys_admin` WRITE;
 /*!40000 ALTER TABLE `admin` DISABLE KEYS */;
-INSERT INTO `admin` VALUES (1,'admin','123'),(2,'admin1','565');
+INSERT INTO `sys_admin` VALUES (1,'admin','123'),(2,'admin1','565');
 /*!40000 ALTER TABLE `admin` ENABLE KEYS */;
 UNLOCK TABLES;
 
