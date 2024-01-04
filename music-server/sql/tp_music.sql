@@ -16,7 +16,7 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `admin`
+-- Table structure for table `sys_admin`
 --
 
 DROP TABLE IF EXISTS `sys_admin`;
@@ -32,13 +32,13 @@ CREATE TABLE `sys_admin` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `admin`
+-- Dumping data for table `sys_admin`
 --
 
 LOCK TABLES `sys_admin` WRITE;
-/*!40000 ALTER TABLE `admin` DISABLE KEYS */;
+/*!40000 ALTER TABLE `sys_admin` DISABLE KEYS */;
 INSERT INTO `sys_admin` VALUES (1,'admin','123'),(2,'admin1','565');
-/*!40000 ALTER TABLE `admin` ENABLE KEYS */;
+/*!40000 ALTER TABLE `sys_admin` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
